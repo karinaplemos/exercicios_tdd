@@ -56,11 +56,11 @@ public class Pagamento {
 			
 		if (somaPagamentos == f.getValorTotal()) {
 			pagamentos.add(pag);
-			f.estadoPago = true;
+			f.setEstadoPago(true);
 
 		}else {
-			f.estadoPago = false;
-				
+			f.setEstadoPago(false);
+
 		}
 					
 	}
